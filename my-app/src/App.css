@@ -44,3 +44,8 @@
   width: 60px;
   height: 60px;
 }
+
+.completed{
+  /* 글자 가운데 삭제 선 */
+  text-decoration: line-through;
+}

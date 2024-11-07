@@ -14,6 +14,14 @@ import State1 from './components/R06_State1';
 import State2 from './components/R07_State2';
 import State3 from './components/R08_State3';
 
+import StateReview from './review/State_review1';
+import StateReview2 from './review/State_review2';
+
+import Context1 from './components/R09_Context1';
+import Context2 from './components/R10_Context2';
+
+import Context3 from './R11_Context3/Parent';
+
 
 // 기본적으로 //, /* */ 주석 사용 가능(JS 니까!!)
 // 단, HTML 코드가 작성되는 영역에서는 {/* */} 주석 사용 ( ctrl + / )
@@ -35,7 +43,7 @@ function App() {
       <Props1 num='2' name='김미영'/>
       <Props1 /> */}
 
-      <hr/>
+      {/* <hr /> */}
       {/* <Props2 name='짱구' age='19' address='경기도' gender='남자'/>
       <Props2 name='철수' age='45' address='강남' gender='남자'/> */}
 
@@ -44,12 +52,23 @@ function App() {
 
 
       {/* State */}
-      <State1/>
+      {/* <State1 /> */}
 
-      <State2 init='0'/>
+      {/* <State2 init='0' /> */}
 
-        <hr/>
-      <State3 />
+      {/* <hr /> */}
+      {/* <State3 /> */}
+
+      {/* <StateReview /> */}
+
+      {/* <StateReview2 /> */}
+
+      {/* <Context1 /> */}
+
+      <hr />
+      {/* <Context2 /> */}
+
+      <Context3/>
     </>
   );
 }
